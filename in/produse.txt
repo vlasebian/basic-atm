@@ -1,0 +1,7 @@
+Produs Categorie RO IT SP
+Paine Patiserie 2 2.1 1.4
+Ghid_Turistic Carte 6 5 9
+Conserva_Carne Mancare 5 5 8
+Head_First Carte 10 11 9
+Pizza Mancare 14.5 13.2 11
+Pizza Mancare 9 9 9
