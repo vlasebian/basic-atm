@@ -1,12 +1,3 @@
-Programare orientată pe obiecte
-===============================
-
-### Anul universitar: 2017 - 2018  
-### Student: Vitan Vlad-Sebastian  
-### Grupa: 324CC   
-### Timp alocat: 5 zile
-### Grad de dificultate: ușor spre mediu
-
 Sistem de facturi fiscale
 =========================
 
@@ -19,14 +10,10 @@ Aplicația pentru sistemul de facturi fiscale este împărțită în 3 pachete:
 
 Pachetul Market conține implementarea interfeței (IMagazin), clasei abstracte (Magazin), a magazinelor 
 ce moștenesc clasa abstracta (MiniMarket, MediumMarket, HyperMarket) și a clasei creatoare de magazine, 
-ce urmează modelul Factory (MarketFactory). Toate clasele sunt implementate după scheletul din enunț,
-clasa Magazin având în plus câteva metode: setNume(), getNume(), addFactura(), getFacturi(),
-getTotalCategorie() a căror funcționalitate este evidentă. 
+ce urmează modelul Factory (MarketFactory).
 
 Pachetul Gestiune conține implementarea claselor: Produs, ProdusComandat, Factura, Reader și
-Gestiune. Primele două clase respectă scheletul din enunț, iar clasa Factura are în plus metodele
-setDenumire(), getDenumire(), getListaProduse(), addProdusComandat() și getTotalCategorie(), rolul
-acestora fiind evident.
+Gestiune.
 
 Clasa Reader este utilizată pentru citirea din fișiere, parsarea acestora și salvarea datelor
 parsate. Cele 3 metode, readProducts(), readTaxes(), respectiv readBills() citesc și parsează
